@@ -1,0 +1,13 @@
+body {
+  background-color: #fdf6f0; /* Soft cream background */
+  color: #4a4a4a;            /* Gentle grey text */
+  font-family: 'Georgia', serif;
+}
+
+h1, h2 {
+  color: #7a3e3e;            /* Earthy red for headings */
+}
+
+a {
+  color: #5a8f7b;            /* Calming green for links */
+}
