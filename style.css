@@ -1,13 +1,39 @@
 body {
-  background-color: #fdf6f0; /* Soft cream background */
-  color: #4a4a4a;            /* Gentle grey text */
-  font-family: 'Georgia', serif;
+    background-color: #A9B3A2; /* Muted green from logo background */
+    color: #333; /* Dark grey text for readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #A9B3A2; /* Consistent header/footer */
+    padding: 20px;
+    text-align: center;
 }
 
 h1, h2 {
-  color: #7a3e3e;            /* Earthy red for headings */
+    color: #4A4A4A; /* Slightly darker for headings */
 }
 
 a {
-  color: #5a8f7b;            /* Calming green for links */
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #A9B3A2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #8C9987; /* Slightly darker green on hover */
 }
